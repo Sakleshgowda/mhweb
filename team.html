@@ -99,84 +99,53 @@
   <!-- Page Header Start -->
 
 
-  <div class="container-fluid py-5">
-    <div class="container py-5">
-        <div class="row mx-0">
-            <div class="col-lg-6 px-0">
-                <div class="px-5 bg-dark d-flex align-items-center justify-content-between" style="height: 350px;">
-                    <img class="img-fluid flex-shrink-0 ml-n5 w-50 mr-4" src="https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/homepage/driver-standings-component/SERPER01.png.transform/4col/image.png" alt="">
-                    <div class="text-left">
-                        <h3 class="text-uppercase text-light mb-3">Driver 1</h3>
-                        <p class="mb-4">Karthik Yadav <br>5th sem </br>Mechanical Engineering</p>
-                        <a class="btn btn-primary py-2 px-4" href="">View Profile </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 px-0">
-                <div class="px-5 bg-dark d-flex align-items-center justify-content-between" style="height: 350px;">
-                    <div class="text-left">
-                        <h3 class="text-uppercase text-light mb-3">Driver 2</h3>
-                        <p class="mb-4">Gyan Naidu <br>3rd sem </br>Mechanical Engineering</p>
-                        <a class="btn btn-primary py-2 px-4" href="">View Profile</a>
-                    </div>
-                    <img class="img-fluid flex-shrink-0 mr-n5 w-50 ml-4" src="https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/homepage/driver-standings-component/SERPER01.png.transform/4col/image.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid py-5">
-    <div class="container py-5">
-        <div class="row mx-0">
-            <div class="col-lg-6 px-0">
-                <div class="px-5 bg-dark d-flex align-items-center justify-content-between" style="height: 350px;">
-                    <img class="img-fluid flex-shrink-0 ml-n5 w-50 mr-4" src="https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/homepage/driver-standings-component/SERPER01.png.transform/4col/image.png" alt="">
-                    <div class="text-left">
-                        <h3 class="text-uppercase text-light mb-3">Driver 1</h3>
-                        <p class="mb-4">Karthik Yadav <br>5th sem </br>Mechanical Engineering</p>
-                        <a class="btn btn-primary py-2 px-4" href="">View Profile </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 px-0">
-                <div class="px-5 bg-dark d-flex align-items-center justify-content-between" style="height: 350px;">
-                    <div class="text-left">
-                        <h3 class="text-uppercase text-light mb-3">Driver 2</h3>
-                        <p class="mb-4">Gyan Naidu <br>3rd sem </br>Mechanical Engineering</p>
-                        <a class="btn btn-primary py-2 px-4" href="">View Profile</a>
-                    </div>
-                    <img class="img-fluid flex-shrink-0 mr-n5 w-50 ml-4" src="https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/homepage/driver-standings-component/SERPER01.png.transform/4col/image.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid py-5">
-    <div class="container py-5">
-        <div class="row mx-0">
-            <div class="col-lg-6 px-0">
-                <div class="px-5 bg-dark d-flex align-items-center justify-content-between" style="height: 350px;">
-                    <img class="img-fluid flex-shrink-0 ml-n5 w-50 mr-4" src="https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/homepage/driver-standings-component/SERPER01.png.transform/4col/image.png" alt="">
-                    <div class="text-left">
-                        <h3 class="text-uppercase text-light mb-3">Driver 1</h3>
-                        <p class="mb-4">Karthik Yadav <br>5th sem </br>Mechanical Engineering</p>
-                        <a class="btn btn-primary py-2 px-4" href="">View Profile </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 px-0">
-                <div class="px-5 bg-dark d-flex align-items-center justify-content-between" style="height: 350px;">
-                    <div class="text-left">
-                        <h3 class="text-uppercase text-light mb-3">Driver 2</h3>
-                        <p class="mb-4">Gyan Naidu <br>3rd sem </br>Mechanical Engineering</p>
-                        <a class="btn btn-primary py-2 px-4" href="">View Profile</a>
-                    </div>
-                    <img class="img-fluid flex-shrink-0 mr-n5 w-50 ml-4" src="https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/homepage/driver-standings-component/SERPER01.png.transform/4col/image.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #2B2E4A;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: #2B2E4A;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  .flex-container {
+  font-family: "Times New Roman", Times, serif;
+}
+  </style>
+  </head>
+  <body>
+  
+  
+  <div class="flex-container">
+    <div class="flex-item-left">Ganesh S</div> <div class="flex-item-right">Captian</div>
+  </div>
+  
+  </body>
+  </html>
+  
+  
+  
 
 
 
